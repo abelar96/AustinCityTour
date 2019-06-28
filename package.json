@@ -1,5 +1,5 @@
 {
-  "name": "AustinCityTour",
+  "name": "austincitytour",
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit (JET) mobile app",
   "dependencies": {
@@ -14,5 +14,19 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "private": true
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelar96/AustinCityTour.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abelar96/AustinCityTour/issues"
+  },
+  "homepage": "https://github.com/abelar96/AustinCityTour#readme"
 }
