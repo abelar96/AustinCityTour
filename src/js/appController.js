@@ -35,7 +35,7 @@ define(['knockout', 'ojs/ojrouter', 'ojs/ojthemeutils', 'ojs/ojmodule-element-ut
       self.router.configure({
        'dashboard': {label: 'Dashboard', isDefault: true},
        'incidents': {label: 'Incidents'},
-       'customers': {label: 'Customers'},
+       'map': {label: 'Map'},
        'profile': {label: 'Profile'},
        'about': {label: 'About'}
       });
@@ -74,7 +74,7 @@ define(['knockout', 'ojs/ojrouter', 'ojs/ojthemeutils', 'ojs/ojmodule-element-ut
        iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-chart-icon-24'},
       {name: 'Incidents', id: 'incidents',
        iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-fire-icon-24'},
-      {name: 'Customers', id: 'customers',
+      {name: 'Map', id: 'map',
        iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-people-icon-24'},
       {name: 'Profile', id: 'profile',
        iconClass: 'oj-navigationlist-item-icon demo-icon-font-24 demo-person-icon-24'},
